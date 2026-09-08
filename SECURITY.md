@@ -8,7 +8,7 @@ operates.
 
 ## Reporting a vulnerability
 
-**Email [info@daxworks.io](mailto:info@daxworks.io).** Include:
+**Email [security@daxworks.io](mailto:security@daxworks.io).** Include:
 
 - What the issue is, and where: a repository and file, or a hostname
 - What an attacker could do with it
