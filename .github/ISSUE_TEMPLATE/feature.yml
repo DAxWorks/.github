@@ -1,0 +1,63 @@
+name: Change or new capability
+description: Something to build, change, or decide
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: >
+        What is not possible today, or what is costing something. Describe the
+        situation, not the solution.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: What to build or change. Say what it does, not how it is wired.
+    validations:
+      required: true
+
+  - type: textarea
+    id: not-doing
+    attributes:
+      label: Explicitly not included
+      description: >
+        The boundary. Ambiguity about which rung was agreed is the most common
+        source of a scope dispute, and it is entirely avoidable.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mandate
+    attributes:
+      label: Mandate
+      description: >
+        Whether this sits inside the current engagement or requires a separate
+        statement of work.
+      options:
+        - Inside the current mandate
+        - Out of mandate - needs a separate statement of work
+        - Unclear - needs a decision
+    validations:
+      required: true
+
+  - type: textarea
+    id: consequence
+    attributes:
+      label: Consequence of not doing it
+      description: >
+        What happens if this is deferred. State it plainly; a deferral with a
+        stated consequence is a decision, a deferral without one is a gap.
+    validations:
+      required: false
+
+  - type: textarea
+    id: depends
+    attributes:
+      label: Depends on
+      description: Issues, decisions, or client-provided items that gate this.
+    validations:
+      required: false
