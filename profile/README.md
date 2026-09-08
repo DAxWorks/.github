@@ -2,7 +2,7 @@
 
 # DAxWorks
 
-**Cloud platforms, engineered to be handed over**
+**Engineering reliable cloud infrastructure and software systems.**
 
 Montreal, Quebec, Canada
 
@@ -10,63 +10,70 @@ Montreal, Quebec, Canada
 
 ---
 
-Welcome to the GitHub organisation of **DAxWorks**. Founded in 2019 in
-Montreal, Canada, we design, build and hand over production cloud platforms for
-organisations that do not have a platform team of their own.
+Welcome to the GitHub organisation of **DAxWorks**. Founded in 2019 in Montreal, Canada, we design, build, automate and hand over production cloud platforms and the infrastructure that supports them.
+
+We work with organisations that need reliable cloud infrastructure without necessarily building or expanding a dedicated platform engineering capability of their own.
 
 ---
 
 ## What we do
 
-- **Cloud architecture on AWS.** Networking, compute, data, delivery and the
-  failure model that holds them together. Designed for the load that actually
-  exists, not the load a diagram implies.
-- **Infrastructure as code.** Terraform, in stacks with isolated state,
-  reviewed in version control and applied through CI with no long-lived
-  credentials.
-- **Media and content platforms.** Upload, transcode and delivery pipelines,
-  and the CMS hosting in front of them.
-- **Security, observability and cost governance.** Least privilege, encryption
-  with customer-managed keys, monitoring that pages a human only when a human
-  is needed, and a cloud bill that is legible.
-- **Operations and transfer.** Runbooks, documented recovery, and a platform
-  that a different engineer can take over.
+* **Cloud architecture and infrastructure.** Production environments on AWS spanning networking, compute, data, storage and the failure model that holds them together. Designed for the workload, operational requirements and risks that actually exist.
+
+* **Infrastructure as code and automation.** Terraform organised into maintainable stacks with isolated state, reviewed through version control and applied through CI/CD without long-lived credentials. Repetitive operational work is automated wherever doing so improves reliability and reproducibility.
+
+* **Delivery and platform engineering.** CI/CD pipelines, deployment workflows, environment design and the engineering practices required to move changes safely and repeatably from development into production.
+
+* **Media and content platforms.** Upload, processing, transcoding and delivery pipelines, together with the cloud infrastructure and CMS platforms that support them.
+
+* **Security, observability and cost governance.** Least-privilege access, encryption, secrets management, actionable monitoring and infrastructure whose operating cost can be understood, attributed and controlled.
+
+* **Operations and transfer.** Runbooks, documented recovery procedures, architecture and operational documentation, and a platform that another engineer can understand, operate and extend.
 
 ---
 
 ## How we scope work
 
-**Capability, not product.** "Multi-AZ RDS" is a line on someone else's price
-list. "The platform keeps serving when a data centre fails" is a design
-decision, an implementation, and a proof that it works. The second is the thing
-being bought.
+**Capability, not product.**
 
-Ten capability domains carry explicit levels: availability, recoverability,
-scalability, reproducibility, deployability, access control and isolation, data
-protection, observability, cost governance, and operability and transfer. Every
-proposal names the level being delivered **and** the level not being delivered,
-because ambiguity about which rung was sold is the most common cause of a scope
-dispute and it is entirely avoidable.
+"Multi-AZ RDS" is a line on someone else's price list. "The platform keeps serving when a data centre fails" is a capability.
 
-Two rules hold across every engagement:
+Delivering that capability requires a design, an implementation and evidence that it works. That is what the client is buying.
 
-**Infrastructure cost belongs to the client, at cost.** The cloud bill is
-theirs, paid directly, never marked up and never resold. Recommending a
-configuration that raises a client's bill is never a way of raising our fee.
+DAxWorks scopes platform work across ten capability domains:
 
-**A level is not delivered until it is demonstrated.** Backups that have never
-been restored are not a recovery capability, however well configured.
+1. Availability
+2. Recoverability
+3. Scalability
+4. Reproducibility
+5. Deployability
+6. Access control and isolation
+7. Data protection
+8. Observability
+9. Cost governance
+10. Operability and transfer
+
+Each engagement identifies the level of capability being delivered and, where relevant, the level that is explicitly outside the engagement.
+
+This makes architectural trade-offs, cost and scope visible before implementation begins.
+
+### Two principles apply across our engagements
+
+**Infrastructure cost belongs to the client, at cost.** Cloud resources remain the client's operating expense and are paid directly by the client wherever practical. DAxWorks does not use increased cloud consumption as a source of margin.
+
+**A capability is not delivered until it is demonstrated.** Configuration alone is not evidence. A backup that has never been restored, for example, is not yet a demonstrated recovery capability.
 
 ---
 
 ## Repositories
 
-Client work is private by contract. Public repositories here are limited to
-reusable patterns, tooling and reference material.
+Client work is private by contract.
+
+Public repositories in this organisation are reserved for reusable engineering patterns, tooling, reference implementations and technical material that DAxWorks chooses to make publicly available.
 
 ---
-
 ## Contact
 
-- **Email:** [info@daxworks.io](mailto:info@daxworks.io)
-- **Location:** Montreal, Quebec, Canada
+* **Web:** daxworks.io
+* **Email:** [info@daxworks.io](mailto:info@daxworks.io)
+* **Location:** Montreal, Quebec, Canada
