@@ -1,0 +1,71 @@
+name: Bug
+description: Something built is not behaving as documented
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not report security vulnerabilities here. See the security policy.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: The observed behaviour, and what was expected instead.
+      placeholder: |
+        Expected: the apply completes and the record resolves
+        Actual: the apply fails with ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: The smallest sequence that produces it. Exact commands.
+      placeholder: |
+        1. task init STACK=foundation ENV=dev
+        2. task plan STACK=foundation ENV=dev
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: >
+        Error output, plan output, log excerpts, request IDs, timestamps.
+        Redact anything sensitive: no credentials, no account identifiers you
+        would not put in a public issue.
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: scope
+    attributes:
+      label: Where
+      description: Stack, environment, component, or hostname.
+      placeholder: foundation / prod
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options:
+        - Blocking - nothing can proceed
+        - Degraded - a workaround exists
+        - Cosmetic - documentation or output only
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything already ruled out
+      description: What was checked and found not to be the cause. Saves repeating it.
+    validations:
+      required: false
