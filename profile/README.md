@@ -10,9 +10,8 @@ Montreal, Quebec, Canada
 
 ---
 
-Welcome to the GitHub organisation of **DAxWorks**, the commercial name of
-**Djun Aleks Ventures Inc.**, a corporation incorporated under the laws of
-Quebec. We design, build and hand over production cloud platforms for
+Welcome to the GitHub organisation of **DAxWorks**. Founded in 2019 in
+Montreal, Canada, we design, build and hand over production cloud platforms for
 organisations that do not have a platform team of their own.
 
 ---
@@ -71,7 +70,3 @@ reusable patterns, tooling and reference material.
 
 - **Email:** [info@daxworks.io](mailto:info@daxworks.io)
 - **Location:** Montreal, Quebec, Canada
-
-Djun Aleks Ventures Inc. carries on business under the commercial name
-DAxWorks. Correspondence, proposals and deliverables issued as DAxWorks are
-issued by, and bind, Djun Aleks Ventures Inc.
