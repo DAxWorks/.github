@@ -1,6 +1,9 @@
 <div align="center">
 
-# DAxWorks
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="daxworks-wordmark-reverse.png">
+  <img src="daxworks-wordmark.png" alt="DAxWorks" width="360">
+</picture>
 
 **Engineering reliable cloud infrastructure and software systems.**
 
