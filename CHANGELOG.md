@@ -5,6 +5,20 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.2] - 2026-09-17
+
+### Added
+
+- **The two wordmark PNGs the profile page renders**, back in `profile/`, taken
+  from the brand repository's 760px renders and byte-identical to the copies the
+  member profile uses. Only these two images are published here: the asset kit
+  removed in 0.2.1 stays out.
+
+### Changed
+
+- The profile heading is the wordmark image again rather than the text
+  "DAxWorks", so the public and member profiles open identically.
+
 ## [0.2.1] - 2026-09-17
 
 ### Removed
