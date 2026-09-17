@@ -5,6 +5,27 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.1] - 2026-09-17
+
+### Removed
+
+- **Every brand image, and the `brand/` directory.** The directory published the
+  full asset kit (wordmarks, marks, app icons, favicons and apple-touch sizes)
+  plus its usage documentation, and nothing in this repository referenced it. It
+  duplicated the private `brand` repository with nothing keeping the two in
+  step, and a public asset kit carried no usage terms. The two wordmark PNGs in
+  `profile/` went with it. `DAxWorks/brand` is the source of truth and is
+  private.
+- **The images were also purged from this repository's history**, which was
+  rewritten and force-pushed, so no commit in it carries a brand asset. The
+  rewrite also corrected the author address on the two oldest commits, which
+  carried a former employer's work email.
+
+### Changed
+
+- The profile heading is now the text "DAxWorks" rather than the wordmark image.
+  The organisation avatar still carries the mark on the profile page.
+
 ## [0.2.0] - 2026-09-17
 
 ### Changed
