@@ -5,6 +5,26 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.6] - 2026-09-17
+
+### Fixed
+
+- **The wordmark rendered twice.** `#gh-light-mode-only` and
+  `#gh-dark-mode-only` no longer work: GitHub has withdrawn them, so both images
+  displayed, the light one as the wordmark and the reverse one as an apparently
+  stray purple "x". Reverted to `<picture>`, which renders correctly on both
+  themes.
+
+### Changed
+
+- **The wordmark is not a link again.** On GitHub a linked logo and `<picture>`
+  are mutually exclusive: wrapping a `<picture>` in an `<a>` makes GitHub hoist
+  the `<img>` out and re-wrap it in its own lightbox anchor, so the logo opens
+  the PNG instead of the site. Correct rendering on both themes was judged the
+  more important of the two, because a single linked image would leave the ink
+  wordmark almost invisible on GitHub's dark theme, and would fail silently
+  rather than visibly.
+
 ## [0.2.5] - 2026-09-17
 
 ### Changed

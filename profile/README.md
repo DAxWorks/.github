@@ -1,7 +1,9 @@
 <div align="center">
 
-<a href="https://www.daxworks.io"><img src="daxworks-wordmark.png#gh-light-mode-only" alt="DAxWorks" width="360"></a>
-<a href="https://www.daxworks.io"><img src="daxworks-wordmark-reverse.png#gh-dark-mode-only" alt="DAxWorks" width="360"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="daxworks-wordmark-reverse.png">
+  <img src="daxworks-wordmark.png" alt="DAxWorks" width="360">
+</picture>
 
 **Cloud platforms, engineered to be handed over.**
 
