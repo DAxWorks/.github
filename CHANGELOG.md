@@ -5,6 +5,22 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.5] - 2026-09-17
+
+### Changed
+
+- **The wordmark links to https://www.daxworks.io.**
+- **The theme swap no longer uses `<picture>`.** GitHub's renderer hoists the
+  `<img>` out of a `<picture>` that sits inside a link, leaves the link wrapping
+  an empty `<picture>`, and re-wraps the visible image in its own lightbox
+  anchor pointing at the PNG. The result is a logo that opens the image file
+  instead of the website. Verified against the `/markdown` API, not assumed.
+  The two images now carry `#gh-light-mode-only` and `#gh-dark-mode-only`
+  instead, each inside its own link, which renders with no lightbox anchors at
+  all. That mechanism predates `<picture>` and GitHub considers it superseded:
+  if it is ever withdrawn the wordmark will appear twice, which is visible and
+  one revert away.
+
 ## [0.2.4] - 2026-09-17
 
 ### Added
