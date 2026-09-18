@@ -106,4 +106,6 @@ Public repositories in this organisation are reserved for reusable engineering p
 
 * **Web:** daxworks.io
 * **Email:** [hello@daxworks.io](mailto:hello@daxworks.io)
+* **LinkedIn:** [linkedin.com/company/daxworks](https://www.linkedin.com/company/daxworks)
+* **GitHub:** [github.com/DAxWorks](https://github.com/DAxWorks)
 * **Location:** Montreal, Quebec, Canada

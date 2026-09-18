@@ -5,6 +5,16 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.4] - 2026-09-17
+
+### Added
+
+- **The LinkedIn company page** in the contact list,
+  `linkedin.com/company/daxworks`, verified to resolve before publishing. The
+  organisation's own "Social accounts" setting cannot be changed through the
+  API, so that field is still empty and has to be set by hand.
+- The GitHub organisation link, for symmetry with the other two.
+
 ## [0.2.3] - 2026-09-17
 
 ### Changed
