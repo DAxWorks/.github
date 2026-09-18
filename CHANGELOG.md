@@ -5,6 +5,22 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.3] - 2026-09-17
+
+### Changed
+
+- **The public contact address is now `hello@daxworks.io`**, replacing
+  `info@daxworks.io`. It matches the address published on the website and the
+  organisation's own email setting. `info@` remains a working general and
+  administrative address; it is simply no longer the one advertised.
+- **The tagline is now "Cloud platforms, engineered to be handed over."**,
+  replacing "Cloud platforms engineered for automation, intelligence and
+  operational independence." The organisation description, this profile and the
+  forthcoming website now carry one positioning statement instead of three. The
+  previous line promised "intelligence" while the delivery list below it
+  deliberately keeps AI as an emerging capability, and a tagline should not
+  promise what the page beneath it withholds.
+
 ## [0.2.2] - 2026-09-17
 
 ### Added

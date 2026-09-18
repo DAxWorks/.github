@@ -5,7 +5,7 @@
   <img src="daxworks-wordmark.png" alt="DAxWorks" width="360">
 </picture>
 
-**Cloud platforms engineered for automation, intelligence and operational independence.**
+**Cloud platforms, engineered to be handed over.**
 
 Montreal, Quebec, Canada
 
@@ -105,5 +105,5 @@ Public repositories in this organisation are reserved for reusable engineering p
 ## Contact
 
 * **Web:** daxworks.io
-* **Email:** [info@daxworks.io](mailto:info@daxworks.io)
+* **Email:** [hello@daxworks.io](mailto:hello@daxworks.io)
 * **Location:** Montreal, Quebec, Canada
