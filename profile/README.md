@@ -7,7 +7,7 @@
 
 **Cloud platforms, engineered to be handed over.**
 
-Montreal, Quebec, Canada
+Montreal, Canada
 
 </div>
 
@@ -15,7 +15,7 @@ DAxWorks designs, builds, automates and hands over production cloud platforms. F
 
 We work with organisations that need reliable cloud infrastructure without building or expanding a platform engineering function of their own. The aim is always a platform its owners can run without us.
 
-We are extending that engineering model with AI-assisted development, infrastructure analysis, engineering knowledge systems and intelligent operations.
+We are developing an extension of that engineering model with AI-assisted development, infrastructure analysis, engineering knowledge systems and intelligent operations.
 
 ## What we deliver
 
@@ -108,4 +108,4 @@ Public repositories in this organisation are reserved for reusable engineering p
 * **Email:** [hello@daxworks.io](mailto:hello@daxworks.io)
 * **LinkedIn:** [linkedin.com/company/daxworks](https://www.linkedin.com/company/daxworks)
 * **GitHub:** [github.com/DAxWorks](https://github.com/DAxWorks)
-* **Location:** Montreal, Quebec, Canada
+* **Location:** Montreal, Canada

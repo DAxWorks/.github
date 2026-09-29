@@ -5,6 +5,19 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.7] - 2026-09-28
+
+### Changed
+
+- **The location is "Montreal, Canada"**, dropping the province, so the profile
+  matches the website. Two places in this file: the line under the wordmark and
+  the Contact list.
+- **"We are extending" became "We are developing an extension of"** in the
+  engineering-intelligence paragraph. The first reads as something already
+  underway and shipping; the second states plainly that it is being built. It
+  matches the rest of the page, which calls this work emerging and promises a
+  repository behind it before it is described as delivered.
+
 ## [0.2.6] - 2026-09-17
 
 ### Fixed
